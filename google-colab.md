@@ -8,26 +8,26 @@
 
 1. Необходимо перейти на сайт [Google Colab](https://colab.google/)
 
-   [colab new notebook](im/colab-new-notebook.jpg "главная страница Google Colab")
+   ![colab new notebook](im/colab-new-notebook.jpg "главная страница Google Colab")
 
 2. Затем нажать на кнопку *New Notebook*
 
 Откроется пустой .ipynb файл.
 
-   [colab empty notebook](im/colab-empty-notebook.jpg)
+   ![colab empty notebook](im/colab-empty-notebook.jpg)
 
 3. Далее нажать "Файл->Открыть блокнот"
 
-   [colab-open-file.jpg](im/colab-open-file.jpg)
+   ![colab-open-file.jpg](im/colab-open-file.jpg)
 
     3.1. В открывшемся окне открыть вкладку "Загрузить" и выбрать файл "Практикум1.ipynb"
     
-      [colab-select-file.jpg](im/colab-select-file.jpg)
+      ![colab-select-file.jpg](im/colab-select-file.jpg)
 
 4. В результате загрузится и откроется файл "Практикум1.ipynb". Теперь можно работать,\
 учитывая, что в конце работы необходимо экспортировать результаты работы.
 
-   [colab-result](im/colab-result.jpg)
+   ![colab-result](im/colab-result.jpg)
 
 
 ## Экспортирование результатов работы
@@ -35,7 +35,7 @@
 виртуальной машины. Для этого необходимо:
 1. Открыть меню "Файл->Скачать->Скачать IPYNB"
 
-   [colab save](im/colab-save.jpg)
+   ![colab save](im/colab-save.jpg)
 
 2. Файл .ipynb будет скачан в папку для загрузок.
 
@@ -55,7 +55,7 @@
    ```
 3. При ее выполнении откроется окно подключения диска:
 
-   [colab window drive connection](im/colab-win-drive-con.jpg)
+   ![colab window drive connection](im/colab-win-drive-con.jpg)
    
    Необходимо нажать "Подключится к Google Диску"
    
@@ -65,10 +65,10 @@
 
 Стоит учитывать, что сервис работает на базе виртуальной машины, которая запущена с ОС Linux.\
 Для просмотра файловой системы можно обратиться к левому боковому меню:\
-   [colab left file menu](im/colab-left-file-men.jpg)\
+   ![colab left file menu](im/colab-left-file-men.jpg)\
 Файлы из вашего дискра расположены по пути */content/drive/MyDrive/** \
 Файлы, созданныев рамках сессии виртуальной машины: */content/sample-data/** \
-   [colab file menu](im/colab-file-menu.jpg)\
+   ![colab file menu](im/colab-file-menu.jpg)\
 Эти пути необходимо учитывать при написании Python-скрипта, например:
 ```
 > pd.read_csv('/content/drive/MyDrive/Colab Notebooks/athlete_events.csv')
